@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* --------- GERAL --------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #e3f0ff;
+    min-height: 100vh;
+}
+
+/* --------- HEADER --------- */
+/* CONTAINER */
+.container-header{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+/* MENU */
+nav .menu-hamburguer{
+    display: none;
+    cursor: pointer;
+}
+
+/* LOGO */
+nav .logo a{
+    font-size: 30px;
+    color: #5654b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* LISTA */
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #5654b3;
+}
+
+nav ul button{
+    background-color: #5654b3;
+    padding: 10px 20px;
+    border: 3px solid #5654b3;
+    margin-left: 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+nav ul button:hover{
+    background: none;
+    border: 3px solid #5654b3;
+    color: #5654b3;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+/* --------- MAIN --------- */
+main{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4%;
+}
+/* TEXTO */
+.textbox{
+    width: 35%;
+}
+
+.textbox h1{
+    font-size: 3rem;
+}
+
+strong{
+    color: #f1676f;
+}
+
+.textbox p{
+    color: #372c62;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+form{
+    margin: 20px 0;
+    display: flex;
+}
+form input{
+    width: 60%;
+    display: block;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #8997b9;
+    font-size: 16px;
+}
+form input::placeholder{
+    color: #8997b9;
+}
+form button{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    background-color: #5654b3;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.icons{
+    margin-top: 30px;
+}
+
+.icons i{
+    font-size: 23px;
+    margin: 0 3px;
+    color: #fff;
+    background-color: #372c62;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+section{
+    width: 55%;
+}
+section img{
+    width: 100%;
+}

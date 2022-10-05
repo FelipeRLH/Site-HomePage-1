@@ -1,0 +1,54 @@
+@media (max-width:970px) {
+    nav .menu-hamburguer {
+        display: block;
+    }
+
+    nav ul{
+        position: fixed;
+        width: 60%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        transform: translate(-100%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        transition: 0.3s ease-in;
+        background-color: #5654b3;
+    }
+    nav ul.active{
+        transform: translate(0);
+    }
+    nav ul li{
+        padding: 10px;
+    }
+    nav ul li a{
+        font-size: 18px;
+        color: #fff;
+    }
+    nav ul button{
+        background-color: #f1676d;
+        font-size: 18px;
+        margin: 10px;
+        border: 3px solid #f1676d;
+    }
+    nav ul button:hover{
+        border: 3px solid #f1676d;
+        color: #fff;
+    }
+
+
+    main{
+        flex-direction: column;
+    }
+    .textbox, section{
+        width: 100%;
+        text-align: center;
+    }
+
+    .textbox, form{
+        justify-content: center;
+    }
+
+}
